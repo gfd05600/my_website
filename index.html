@@ -69,6 +69,72 @@
     <h1>ようこそ！私のポートフォリオへ</h1>
     <p>GitHub Pagesを使って作成したウェブサイトです。ここから色々なコンテンツを発信していきます。</p>
     <a href="#" class="btn">お問い合わせ</a>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: sans-serif;
+      background-color: #f0f2f5;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .container {
+      background: #ffffff;
+      padding: 40px 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+      max-width: 480px;
+      width: 100%;
+      text-align: center;
+    }
+
+    /* 画像用CSS */
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #fff;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 16px;
+    }
+
+    h1 { font-size: 1.8rem; margin-bottom: 12px; }
+    p { color: #666; font-size: 0.95rem; margin-bottom: 24px; }
+    .btn {
+      display: inline-block;
+      padding: 12px 28px;
+      background-color: #000;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <main class="container">
+    <!-- プロフィール画像 -->
+    <img src="profile.jpg" alt="プロフィール写真" class="profile-img">
+
+    <h1>ようこそ！私のポートフォリオへ</h1>
+    <p>GitHub Pagesを使って作成したウェブサイトです。</p>
+    <a href="https://x.com/" class="btn" target="_blank" rel="noopener noreferrer">X (Twitter)</a>
+  </main>
+
+</body>
+</html>
+    
   </main>
 
 </body>
